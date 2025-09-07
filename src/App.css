@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  color: #333;
+}
+
+h2, h3 {
+  margin-top: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+th {
+  background: #f0f0f0;
+}
+
+/* ✅ нове для календаря */
+.calendar-card {
+  height: 78vh;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.rbc-toolbar {
+  margin-bottom: 8px;
+}
+
+.rbc-toolbar button {
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.rbc-event {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
